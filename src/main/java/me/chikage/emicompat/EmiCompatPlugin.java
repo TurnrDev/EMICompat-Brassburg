@@ -25,10 +25,6 @@ public class EmiCompatPlugin implements EmiPlugin {
         FabricLoader loader = FabricLoader.getInstance();
         if (loader.isModLoaded("ae2"))
             new Ae2Plugin().register(emi);
-        if (loader.isModLoaded("farmersdelight"))
-            new FarmersDelightPlugin().register(emi);
-        if (loader.isModLoaded("createaddition"))
-            new CreateAdditionPlugin().register(emi);
         if (loader.isModLoaded("ae2wtlib"))
             new Ae2wtlibPlugin().register(emi);
     }

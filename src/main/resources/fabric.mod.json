@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "emicompat",
   "version": "${version}",
-  "name": "Emicompat",
+  "name": "EMICompat Brassburg Edition",
   "description": "Add other mod compatibility to EMI",
   "authors": [
     "Chikage"
   ],
   "contact": {
-    "website": "https://github.com/Chikage0o0/emicompat",
-    "repo": "https://github.com/Chikage0o0/emicompat"
+    "website": "https://github.com/TurnrDev/emicompat",
+    "repo": "https://github.com/TurnrDev/emicompat"
   },
   "license": "MIT",
   "icon": "assets/emicompat/icon.png",

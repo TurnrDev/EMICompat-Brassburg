@@ -4,7 +4,6 @@ import dev.emi.emi.api.EmiPlugin;
 import dev.emi.emi.api.EmiRegistry;
 import dev.emi.emi.api.recipe.EmiRecipe;
 import me.chikage.emicompat.ae2.Ae2Plugin;
-import me.chikage.emicompat.ae2wtlib.Ae2wtlibPlugin;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.world.item.crafting.Recipe;
 import net.minecraft.world.item.crafting.RecipeType;
@@ -22,8 +21,6 @@ public class EmiCompatPlugin implements EmiPlugin {
         FabricLoader loader = FabricLoader.getInstance();
         if (loader.isModLoaded("ae2"))
             new Ae2Plugin().register(emi);
-        if (loader.isModLoaded("ae2wtlib"))
-            new Ae2wtlibPlugin().register(emi);
     }
 
     @SuppressWarnings("unchecked")
